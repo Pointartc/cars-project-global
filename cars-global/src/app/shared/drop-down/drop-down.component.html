@@ -1,0 +1,13 @@
+<div class="font-big" >
+  <div class="menu-container" (click)="openMenu()">
+    <div class="menu"></div>
+    <div class="menu"></div>
+    <div class="menu"></div>
+  </div>
+  <div *ngIf="isOpened">
+    <div class="menu-item">Home</div>
+    <div class="menu-item">Pasting cars</div>
+    <div class="menu-item">Car detailing</div>
+    <div class="menu-item">Gallery of works</div>
+  </div>
+</div>
